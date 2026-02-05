@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.schemastore.org/web-manifest-combined.json",
+  "id": "%VITE_APP_ID%",
+  "name": "%VITE_APP_TITLE%",
+  "short_name": "%VITE_APP_TITLE%",
+  "description": "%VITE_APP_DESCRIPTION",
+  "scope": "https://%VITE_APP_HOSTNAME%",
+  "start_url": "https://%VITE_APP_HOSTNAME%",
+  "display": "standalone"
+}
