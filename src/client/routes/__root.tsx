@@ -1,6 +1,6 @@
-import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
-import { environmentVariables } from "../lib/env";
-import { useHead } from "../lib/head";
+import { createRootRoute, Outlet } from "@tanstack/react-router";
+import { environmentVariables } from "../lib/env.ts";
+import { useHead } from "../lib/head.tsx";
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -11,11 +11,5 @@ function RootComponent() {
     path: Route.useMatch().fullPath,
     title: environmentVariables.APP_TITLE,
   });
-  return (
-    <>
-      <div>Hello "__root"!</div>
-      <Link to="/test">Go to /test</Link>
-      <Outlet />
-    </>
-  );
+  return <Outlet />;
 }

@@ -3,7 +3,7 @@ import {
   jsonInvalidExceptionFromAjvErros,
   type TypeFromSchema,
   validateFunctionFromSchema,
-} from "./json-schema";
+} from "./json-schema.ts";
 
 export const constrainFunctionFromSchema = <S extends JsonSchema>(
   schema: S,

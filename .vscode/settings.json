@@ -4,5 +4,6 @@
     "source.fixAll.biome": "explicit",
     "source.organizeImports.biome": "explicit"
   },
-  "tailwindCSS.classFunctions": ["clsx"]
+  "tailwindCSS.classFunctions": ["clsx"],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

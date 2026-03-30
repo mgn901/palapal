@@ -4,7 +4,7 @@ import {
   jsonInvalidExceptionFromAjvErros,
   type TypeFromSchema,
   validateFunctionFromSchema,
-} from "./json-schema";
+} from "./json-schema.ts";
 
 export type HttpMethods =
   | "GET"

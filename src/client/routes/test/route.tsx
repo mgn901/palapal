@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { environmentVariables } from "../../lib/env";
-import { useHead } from "../../lib/head";
-import { constrainFunctionFromSchema } from "../../lib/tanstack-router-utils";
+import { environmentVariables } from "../../lib/env.ts";
+import { useHead } from "../../lib/head.tsx";
+import { constrainFunctionFromSchema } from "../../lib/tanstack-router-utils.ts";
 
 export const Route = createFileRoute("/test")({
   validateSearch: constrainFunctionFromSchema({
