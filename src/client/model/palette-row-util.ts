@@ -1,7 +1,7 @@
 import { createTupleCache } from "@mgn901/mgn901-utils-ts/cached-function";
+import { ReactiveMap } from "@mgn901/mgn901-utils-ts/reactive-map";
 import { except } from "@mgn901/mgn901-utils-ts/set-operations";
 import { TupleKeyedMap } from "@mgn901/mgn901-utils-ts/tuple-keyed-map";
-import { ReactiveMap } from "../lib/reactive-map.ts";
 import { fitWithinSrgb, oklchInt32FromVector3 } from "./color.ts";
 import type { OklchInt32, PaletteRow } from "./palette.types.ts";
 

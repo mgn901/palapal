@@ -1,5 +1,5 @@
+import { ReactiveMap } from "@mgn901/mgn901-utils-ts/reactive-map";
 import { except } from "@mgn901/mgn901-utils-ts/set-operations";
-import { ReactiveMap } from "../lib/reactive-map.ts";
 import type { PaletteParam } from "./palette.types.ts";
 
 export type PaletteParamMap = ReactiveMap<string, PaletteParam>;

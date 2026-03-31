@@ -1,3 +1,4 @@
+import { ReactiveMap } from "@mgn901/mgn901-utils-ts/reactive-map";
 import { defineRouter } from "@mgn901/mgn901-utils-ts/router-utils";
 import {
   type ActionDispatch,
@@ -7,7 +8,6 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
-import { ReactiveMap } from "../lib/reactive-map.ts";
 import { ShowerHead } from "../shower-head.ts";
 import type { OklchInt32, PaletteParam, PaletteRow } from "./palette.types.ts";
 import {

@@ -1,5 +1,9 @@
+import {
+  toAdded,
+  toDeleted,
+  toSet,
+} from "@mgn901/mgn901-utils-ts/immutable-operations";
 import { generateId } from "@mgn901/mgn901-utils-ts/random-values";
-import { toAdded, toDeleted, toSet } from "../lib/immutable-operations.ts";
 import type {
   ChromaParam,
   HueStep,

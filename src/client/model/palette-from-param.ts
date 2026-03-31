@@ -1,7 +1,12 @@
+import { accumulateNeighbor } from "@mgn901/mgn901-utils-ts/accumulation-utils";
+import {
+  localMax,
+  localMin,
+  max,
+  min,
+} from "@mgn901/mgn901-utils-ts/math-utils";
 import { dedupe } from "@mgn901/mgn901-utils-ts/set-operations";
-import { accumulateNeighbor } from "../lib/array-reduce-util.ts";
 import { createVectorCache } from "../lib/cache.ts";
-import { localMax, localMin, max, min } from "../lib/math.ts";
 import { fitWithinSrgb } from "./color.ts";
 import { stepsFromCurveParams } from "./curve.ts";
 import type { PaletteParam, PaletteRow, Vector3 } from "./palette.types.ts";

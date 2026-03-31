@@ -14,7 +14,8 @@
   },
   "packageManager": "pnpm@10.28.0",
   "dependencies": {
-    "@mgn901/mgn901-utils-ts": "0.7.0-alpha.14",
+    "@mgn901/mgn901-utils-react": "^0.1.0",
+    "@mgn901/mgn901-utils-ts": "0.7.0-alpha.15",
     "@tanstack/react-router": "^1.168.8",
     "@types/b-spline": "^2.0.4",
     "ajv": "^8.18.0",

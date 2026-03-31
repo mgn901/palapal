@@ -1,6 +1,6 @@
+import { toSet } from "@mgn901/mgn901-utils-ts/immutable-operations";
 import { memo, type ReactNode, useCallback } from "react";
 import { Label } from "react-aria-components";
-import { toSet } from "../lib/immutable-operations.ts";
 import type { ChromaParam } from "../model/palette.types.ts";
 import {
   usePaletteParam,
