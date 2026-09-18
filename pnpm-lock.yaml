@@ -30,8 +30,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       color-bits:
-        specifier: ^1.2.0
-        version: 1.2.0
+        specifier: ~1.1.1
+        version: 1.1.1
       country-codes-list:
         specifier: ^2.1.0
         version: 2.1.0
@@ -1421,8 +1421,8 @@ packages:
   collect-v8-coverage@1.0.3:
     resolution: {integrity: sha512-1L5aqIkwPfiodaMgQunkF1zRhNqifHBmtbbbxcr6yVxxBnliw4TDOW6NxpO8DJLgJ16OT+Y4ztZqP6p/FtXnAw==}
 
-  color-bits@1.2.0:
-    resolution: {integrity: sha512-p0qcpkPRhOFWp6lOXqDqOHkYfAaOxWyUyRqe0o/wJyt2+ZWdOXk+gj9TzfzPctW/ktSTIgnmTkH5OLfaX291dA==}
+  color-bits@1.1.1:
+    resolution: {integrity: sha512-KOU0xOussQ1b7jDqEb2wx89ZGdCepRI30c0LZRUrjcb6zS0sgfxYt0UmocvG6EhTvbraJZQjZZn7wN10tFWgjg==}
 
   color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -3800,7 +3800,7 @@ snapshots:
 
   collect-v8-coverage@1.0.3: {}
 
-  color-bits@1.2.0: {}
+  color-bits@1.1.1: {}
 
   color-convert@2.0.1:
     dependencies:
