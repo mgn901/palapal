@@ -11,7 +11,7 @@ export const Popover = memo((props: PopoverProps): ReactNode => {
       {...props}
       className={renderClassName(
         props.className,
-        "rounded-lg border border-g1-100 bg-g1-0/75 p-1 shadow-lg backdrop-blur-md dark:border-g1-700 dark:bg-g1-800/75",
+        "rounded-lg border border-g1-100 bg-g1-0/75 shadow-lg backdrop-blur-md dark:border-g1-700 dark:bg-g1-800/75",
       )}
     >
       {render(props.children)}

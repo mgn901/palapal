@@ -25,7 +25,7 @@ export const Toolbar = memo((): ReactNode => {
           <Icon name="help" />
           <span>Help</span>
         </Button>
-        <Popover>
+        <Popover className="p-1">
           <Menu>
             <MenuItem className="pr-8 pl-1">
               <Text slot="label">About palapal</Text>
